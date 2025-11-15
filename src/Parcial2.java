@@ -1,5 +1,6 @@
 import java.util.Scanner;
-//cd 192622 Skarik Barbosa
+//cd 192622 Skarik Barbosa 
+// cd funcional
 public class Parcial2 {
 
     
@@ -108,7 +109,6 @@ public class Parcial2 {
                 return false; 
             }
         }
-
         return true;
     }
 
@@ -157,14 +157,14 @@ public class Parcial2 {
         if (rotacion != -1) {
             System.out.println("El arreglo b se obtiene rotando a " + rotacion );
         } else {
-            System.out.println("b NO es una rotación a la derecha de a ");
+            System.out.println("b no es una rotación a la derecha de a ");
         }
         
         boolean multiconjunto = mismosElementosComoMulticonjunto(arregloA, arregloB);
         if (multiconjunto) {
             System.out.println("Son el mismo multiconjunto ");
         } else {
-            System.out.println("NO son el mismo multiconjunto");
+            System.out.println("no son el mismo multiconjunto");
         }
         
 
